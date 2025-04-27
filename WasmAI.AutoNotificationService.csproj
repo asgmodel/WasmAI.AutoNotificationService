@@ -29,9 +29,10 @@
 			WasmAI.AutoNotificationService is a library that provides various notification services using multiple providers such as Email, SMS, Push Notifications, and etc. This library allows you to send notifications to users easily and efficiently through a unified interface.
 		</PackageDescription>
 		<RepositoryUrl>
-			
+			https://github.com/asgmodel/WasmAI.AutoNotificationService.git
 		</RepositoryUrl>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
+		
 	</PropertyGroup>
 
 </Project>

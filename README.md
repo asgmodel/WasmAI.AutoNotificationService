@@ -110,8 +110,8 @@ An enum that defines different notification types (Email, SMS, etc.).
 ## Example Workflow
 
 1. **Initialize the `NotifierManager`** with the providers you want to use.
-2. **Call `NotifyAsyn`** with the appropriate `NotificationType` and notification model.
-3. The `NotifierManager` will dynamically select the correct provider based on the `NotificationType` and send the notification.
+2. **Call `NotifyAsyn`** with the appropriate notification model.
+3. The `NotifierManager` will dynamically  send the notification.
 
 ### Example:
 
@@ -123,7 +123,7 @@ var emailModel = new EmailModel
     Body = "Your message content."
 };
 
-var result = await _notifierManager.NotifyAsyn(NotificationType.Email, emailModel);
+var result = await _notifierManager.NotifyAsyn(emailModel);
 ```
 
 ### Output:
