@@ -27,14 +27,6 @@ You can add the `AutoNotificationService` library to your project via NuGet:
 Install-Package WasmAI.AutoNotificationService
 ```
 
-Alternatively, you can add the package reference in your `.csproj` file:
-
-```xml
-<PropertyGroup>
-  <PackageId>WasmAI.AutoNotificationService</PackageId>
-</PropertyGroup>
-```
-
 ---
 
 ## Getting Started
