@@ -67,7 +67,8 @@ public class NotificationSender
             Body = "We are glad to have you onboard."
         };
 
-        var result = await _notifierManager.NotifyAsyn(NotificationType.Email, emailModel);
+        var result = await _notifierManager.NotifyAsyn(emailModel);
+        //or //var result = await _notifierManager.NotifyAsyn(NotificationType.Email, emailModel);
         Console.WriteLine(result.Message);
     }
 }
