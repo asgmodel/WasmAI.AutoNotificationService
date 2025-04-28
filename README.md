@@ -19,12 +19,16 @@ This library abstracts the complexity of dealing with different notification cha
 
 ---
 
-## Installation
+## Installation [AutoNotificationService](https://www.nuget.org/packages/WasmAI.AutoNotificationService/)
 
 You can add the `AutoNotificationService` library to your project via NuGet:
 
 ```bash
 Install-Package WasmAI.AutoNotificationService
+```
+or using the .NET CLI:
+```bash
+dotnet add package WasmAI.AutoNotificationService --version 1.0.0
 ```
 
 ---
